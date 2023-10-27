@@ -20,6 +20,7 @@ public class HorizonScrollScript : MonoBehaviour, IBeginDragHandler, IDragHandle
         for(int i = 0; i<tabSize;i++) {
             tabPos[i] = distance * i;
         }
+        ClickTab(2);
     }
 
     // Update is called once per frame
